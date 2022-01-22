@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+      "target": "ES2017",
+      "module": "esnext",
+      "lib": ["es2017", "dom", "es2018.regexp"],
+      "outDir": "dist/js/",
+      "sourceMap": true,
+      "incremental": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "allowSyntheticDefaultImports": true,
+      "noImplicitReturns": true,
+      "moduleResolution": "node",
+      "typeRoots": ["./node_modules/@types"],
+      "baseUrl": "."
+  },
+  "include": [
+      "./src/**/*"
+  ]
+}

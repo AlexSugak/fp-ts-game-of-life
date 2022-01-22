@@ -1,0 +1,11 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "aleksandr.sugak@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "tsc-watch": "^4.6.0",
+    "typescript": "^4.5.5"
+  }
+}
