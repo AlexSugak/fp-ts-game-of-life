@@ -1,4 +1,5 @@
 dist/js
+dist/src
 .DS_Store
 node_modules
 yarn-error.log

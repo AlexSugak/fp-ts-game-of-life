@@ -5,6 +5,7 @@
   "author": "aleksandr.sugak@gmail.com",
   "license": "MIT",
   "devDependencies": {
+    "fp-ts": "^2.11.8",
     "tsc-watch": "^4.6.0",
     "typescript": "^4.5.5"
   }

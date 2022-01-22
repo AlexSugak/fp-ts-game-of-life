@@ -1,9 +1,11 @@
-console.log('Game of Life in TS + fp-ts!')
+import { pipe } from 'fp-ts/function'
 
-const canvas = document.querySelector<HTMLCanvasElement>("#game")
+console.log('Game of Life in TS + fp-ts!')
 
 const winWidth = window.innerWidth
 const winHeight = window.innerHeight
+
+const canvas = document.querySelector<HTMLCanvasElement>("#game")
 canvas.width = winWidth
 canvas.height = winHeight
 
@@ -18,4 +20,9 @@ function drawCell(x: number, y: number) {
   ctx.fillRect(x, y, cellSize, cellSize)
 }
 
-drawCell(20, 20)
+pipe(
+  {x: 20, y: 20},
+  ({x, y}) => drawCell(x, y),
+  () => console.log('done drawing!')
+)
+

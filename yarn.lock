@@ -34,6 +34,11 @@ event-stream@=3.3.4:
     stream-combiner "~0.0.4"
     through "~2.3.1"
 
+fp-ts@^2.11.8:
+  version "2.11.8"
+  resolved "https://artifactory.grammarly.io/artifactory/api/npm/common-npm/fp-ts/-/fp-ts-2.11.8.tgz#411cde116c446d568f5597b03352d8b3f98e8f82"
+  integrity sha1-QRzeEWxEbVaPVZewM1LYs/mOj4I=
+
 from@~0:
   version "0.1.7"
   resolved "https://artifactory.grammarly.io/artifactory/api/npm/common-npm/from/-/from-0.1.7.tgz#83c60afc58b9c56997007ed1a768b3ab303a44fe"
